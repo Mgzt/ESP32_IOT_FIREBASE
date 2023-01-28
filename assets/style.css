@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+
+}
+:root{
+    --backGroundColor :#edf2f9;
+}
+html {
+    background-color: var(--backGroundColor);
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 700;
+    color: black;
+}
+body{
+    background-color: var(--backGroundColor) !important;
+}
+/* =======================================================================header================================= */
+
+.HeaderApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: var(--backGroundColor);
+}
+
+.HeaderApp .Navbar {
+    width: 100%;
+    height: 70px;
+    background-color: var(--backGroundColor);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.HeaderApp .Navbar .Navbar_icon i {
+    color: rgb(17, 18, 19);
+    cursor: pointer;
+}
+.HeaderApp .Navbar .Navbar_icon i:hover {
+    color: rgb(68, 118, 205);
+}
+.HeaderApp .Navbar .Navbar_icon .Navbar_icon--span {
+    color: rgb(57, 86, 144);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.HeaderApp .Navbar .Navbar_feature {}
+
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: var(--backGroundColor);
+    background-color: white;
+    
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--search i{
+    margin: 0 15px 0 0px;
+    cursor: pointer;
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--search i:hover{
+    color: rgb(14, 114, 221);
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--search .inputSearch{
+    width: 90%;
+    height: 25px;
+    outline:none;
+    background-color: white ;
+    font-weight: 700;
+    font-size: 20px;
+    /* display: none; */
+} 
+
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 90px;
+
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--options li{
+    list-style: none;
+    margin-right: 0px;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    color: rgb(80, 82, 82);
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--options li:hover{
+    color: rgb(16, 17, 17);
+    cursor: pointer;
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--options li:nth-child(1){
+    background-color: rgb(221, 218, 218);
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(232, 133, 26);
+    margin-right: 10px;
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--options li:nth-child(2){
+    display:none;
+    background-color: rgb(211, 205, 205);
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(60, 119, 119);
+    margin-right: 10px;
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--options li:nth-child(3){
+    margin-top: 15px;
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--options li:nth-child(4){
+    margin-top: 15px;
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--options li:nth-child(5){
+    margin-top: 5px;
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--options li i{
+    height: 40px;
+    width: 40px;
+}
+.HeaderApp .Navbar .Navbar_feature .Navbar_feature--options .avatar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+/* =======================================================================body================================= */
+
+.BodyApp{
+
+    height: auto;
+    width: 100%;
+    
+}
+.BodyApp .categorys{
+    text-align: left;
+     /* background-color: royalblue; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px       ;
+}
+.BodyApp .categorys span {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(89, 89, 89);
+
+}
+.BodyApp .categorys span li {
+    text-align: left;
+    list-style: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+    font-size: medium;
+    font-weight: 300;
+}
+.BodyApp .categorys span li:hover {
+    color: rgb(55, 54, 54);
+}
+.BodyApp .listDevice{
+    
+}
+.BodyApp .listDevice .listDevice_container{
+    
+   
+}
+.BodyApp .listDevice .listDevice_categorys{
+    
+}
+
+.BodyApp .listDevice .listDevice_categorys div{
+    /* background-color: white    ;     */
+   
+    margin-top: 20px;
+    margin-right: 0px;
+}
+.BodyApp .listDevice .LED1{
+    
+    padding: 30px;
+}
+.BodyApp .listDevice .LED1 .LED1_tittle{
+    margin: 0;
+    text-align: center  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* margin-left: -20px  ; */
+    /*  font-weight: 700; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    
+}
+.BodyApp .listDevice .LED1 .LED1_tittle span:nth-child(1){
+    text-align: center;
+    font-size:xx-large;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+.BodyApp .listDevice .LED1 .LED1_tittle span:nth-child(1) span{
+    color: gray;
+    
+}
+.BodyApp .listDevice .LED1 .LED1_tittle span:nth-child(2){
+    text-align: center;
+    font-size:xx-large;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+
+.BodyApp .listDevice .LED1 .LED1_icon{
+    margin: auto;
+    text-align: center  ;
+}
+.BodyApp .listDevice .LED1 .LED1_icon .LED1_icon--OFF{
+    color: black;
+    display: block;
+}
+.BodyApp .listDevice .LED1 .LED1_icon .LED1_icon--ON{
+    display:none;
+    color: rgb(238, 238, 10);
+} 
+.BodyApp .listDevice .LED1 .LED1_icon .LED2_icon--OFF{
+    color: black;
+    display: block;
+}
+.BodyApp .listDevice .LED1 .LED1_icon .LED2_icon--ON{
+    display:none;
+    color: rgb(238, 238, 10);
+} 
+.BodyApp .listDevice .IR{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BodyApp .listDevice .IR .IR_icon{
+    color: greenyellow;
+    cursor: pointer;
+}
+.BodyApp .listDevice .IR .IR_status{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+.BodyApp .listDevice .IR .IR_control{
+ text-align: left;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+ cursor: pointer; 
+}
+
+.BodyApp .listDevice .TEMP{
+    text-align: center  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BodyApp .listDevice .TEMP .TEMP_icon{
+    
+}
+.BodyApp .listDevice .TEMP .TEMP_icon li{
+    list-style: none;
+    color: rgb(234, 79, 23)        ;
+    text-align: center  ;
+}
+.BodyApp .listDevice .TEMP .TEMP_icon li{  
+    display: none;
+}
+.BodyApp .listDevice .TEMP .TEMP_status span{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: bold;
+ font-size: xx-large;
+}
+.BodyApp .listDevice .TEMP .TEMP_discriptons{
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between   ;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(72, 72, 72);
+}
+.BodyApp .listDevice .TEMP .TEMP_discriptons span{
+    cursor: pointer;
+}
+.BodyApp .listDevice .TEMP .TEMP_discriptons span:hover{
+    cursor: pointer;
+    color: blak;
+}
+
+
+/* =====================================================================================Setings BOOTRAP 5 =================================================*/
+.row{
+    --bs-gutter-x: 0.05rem !important;
+}
+.col{
+    margin-right: 20px !important;
+}
+.row-cols-2>* {
+
+    width: 48% !important;
+}
